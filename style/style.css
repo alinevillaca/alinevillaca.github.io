@@ -1,5 +1,5 @@
 /* Fonts */
-
+/*
 @font-face {
   font-family: 'itau-text';
   src: url('../fonts/ItauText_Rg.eot');
@@ -34,7 +34,7 @@
        url('../fonts/ItauText_Lt.svg#proxima_nova_rg') format('svg');
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 /* General */
 
@@ -42,14 +42,8 @@
 
 /* Variables 
 /* Using: var(--cor-bg-principal); */ 
-  --orange: #FF7A00;
-  --purple: #FF7A00;
-  --light-purple: #FF7A00;
-  --dark-blue: #FF7A00;
-  --yellow-gold: #FF7A00;
-  --pink: #EE74D3;
-  --green: #62B761;
-  --red-error: #EA4F3A;
+  --dark: #000;
+  --light: #FFF;
 }
 
 body {
@@ -58,13 +52,13 @@ body {
     overflow-x:hidden;
     margin: 0;
     padding: 0;
-    background-color: #4A2FDE;
+    background-color: var(--dark);
 }
 
 h1 {
-  font-family: itau-text;
+  font-family: helvetica;
   font-size: 36px;
-  color: #FFF;
+  color: var(--light);
   padding: 30px 16px;
-  letter-spacing: -1.8px;
+  letter-spacing: -0.5px;
 }
