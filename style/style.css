@@ -35,6 +35,7 @@ h1 {
   font-family: glassure;
   font-size: 64px;
   color: var(--light);
-  padding: 32px 32px;
+  padding: 64px;
   letter-spacing: 8px;
+  margin: 0;
 }
