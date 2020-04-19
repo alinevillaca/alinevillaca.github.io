@@ -1,0 +1,70 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'itau-text';
+  src: url('../fonts/ItauText_Rg.eot');
+  src: url('../fonts/ItauText_Rg.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ItauText_Rg.woff2') format('woff2'),
+       url('../fonts/ItauText_Rg.woff') format('woff'),
+       url('../fonts/ItauText_Rg.ttf') format('truetype'),
+       url('../fonts/ItauText_Rg.svg#proxima_nova_rg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'itau-text-bold';
+  src: url('../fonts/ItauText_Bd.eot');
+  src: url('../fonts/ItauText_Bd.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ItauText_Bd.woff2') format('woff2'),
+       url('../fonts/ItauText_Bd.woff') format('woff'),
+       url('../fonts/ItauText_Bd.ttf') format('truetype'),
+       url('../fonts/ItauText_Bd.svg#proxima_nova_rg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'itau-text-light';
+  src: url('../fonts/ItauText_Lt.eot');
+  src: url('../fonts/ItauText_Lt.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/ItauText_Lt.woff2') format('woff2'),
+       url('../fonts/ItauText_Lt.woff') format('woff'),
+       url('../fonts/ItauText_Lt.ttf') format('truetype'),
+       url('../fonts/ItauText_Lt.svg#proxima_nova_rg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* General */
+
+* {
+
+/* Variables 
+/* Using: var(--cor-bg-principal); */ 
+  --orange: #FF7A00;
+  --purple: #FF7A00;
+  --light-purple: #FF7A00;
+  --dark-blue: #FF7A00;
+  --yellow-gold: #FF7A00;
+  --pink: #EE74D3;
+  --green: #62B761;
+  --red-error: #EA4F3A;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x:hidden;
+    margin: 0;
+    padding: 0;
+    background-color: #4A2FDE;
+}
+
+h1 {
+  font-family: itau-text;
+  font-size: 36px;
+  color: #FFF;
+  padding: 30px 16px;
+  letter-spacing: -1.8px;
+}
